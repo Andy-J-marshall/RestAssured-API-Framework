@@ -3,7 +3,7 @@ package requestHelper;
 import io.restassured.response.ValidatableResponse;
 
 import static io.restassured.RestAssured.given;
-import static testScenarios.AllTestsToSplit.BASE_URL;
+import static testScenarios.BaseTest.BASE_URL;
 
 public class GetRequests {
 

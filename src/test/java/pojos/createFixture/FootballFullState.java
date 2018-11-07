@@ -11,16 +11,16 @@ import java.util.List;
 @Setter
 public class FootballFullState {
     private String period;
-    private List<Team> teams = null;
+    private List<Team> teams;
     private String awayTeam;
     private Boolean finished;
     private Boolean started;
-    private List<Object> redCards = null;
-    private List<Object> possibles = null;
+    private List<Object> redCards;
+    private List<Object> possibles;
     private Integer gameTimeInSeconds;
-    private List<Object> corners = null;
+    private List<Object> corners;
     private String startDateTime;
     private String homeTeam;
-    private List<Object> yellowCards = null;
-    private List<Goal> goals = null;
+    private List<Object> yellowCards;
+    private List<Goal> goals;
 }
