@@ -1,0 +1,13 @@
+<suite name="All tests" verbose="1" >
+    <test name="Create Get and delete fixtures" >
+        <packages>
+            <package name="testScenarios.fixtures" />
+        </packages>
+        <groups>
+            <run>
+                <include name="fixtures"/>
+                <include name="base"/>
+            </run>
+        </groups>
+    </test>
+</suite>

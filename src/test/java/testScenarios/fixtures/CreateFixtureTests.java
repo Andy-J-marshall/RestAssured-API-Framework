@@ -11,8 +11,9 @@ import static org.hamcrest.Matchers.equalToIgnoringCase;
 import static org.hamcrest.Matchers.is;
 
 public class CreateFixtureTests extends BaseTest {
-    @Test
-    public void newlyAddedFixtureHasTeamIdOfHome() {
+
+    @Test(description = "Ensure the newly added fixture has a TeamId of \"home\"", groups = {"fixtures"})
+    public void newlyAddedFixtureTeamId() {
         String fixtureId = storeNewFixtureHelper.createFixtureAndReturnFixtureId();
         Response response = when().get(BASE_URL + "/fixtures");
         Fixture[] responseBody = gson.fromJson(response.body().asString(), Fixture[].class);

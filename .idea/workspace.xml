@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da5633e-a089-4cb9-8bdb-c12d69193514" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/createFixture/FootballFullState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/createFixture/FootballFullState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/requestHelper/DeleteRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/requestHelper/DeleteRequests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/requestHelper/GetRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/requestHelper/GetRequests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/requestHelper/PostRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/requestHelper/PostRequests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenarios/AllTestsToSplit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testScenarios/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testScenarios/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Fixture$FixtureBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Fixture$FixtureBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Fixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Fixture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/FixtureStatus$FixtureStatusBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/FixtureStatus$FixtureStatusBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/FixtureStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/FixtureStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/FootballFullState$FootballFullStateBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/FootballFullState$FootballFullStateBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/FootballFullState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/FootballFullState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Goal$GoalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Goal$GoalBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Goal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Goal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Team$TeamBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Team$TeamBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/createFixture/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/requestHelper/DeleteRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/requestHelper/DeleteRequests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/requestHelper/GetRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/requestHelper/GetRequests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/requestHelper/PostRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/requestHelper/PostRequests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/requestHelper/StoreNewFixtureHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/requestHelper/StoreNewFixtureHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenarios/AllTestsToSplit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testScenarios/fixtures/CreateFixtureTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testScenarios/fixtures/CreateFixtureTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testScenarios/fixtures/DeleteFixtures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testScenarios/fixtures/DeleteFixtures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testScenarios/fixtures/GetFixtureTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testScenarios/fixtures/GetFixtureTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testScenarios/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testScenarios/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testScenarios/fixtures/CreateFixtureTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testScenarios/fixtures/CreateFixtureTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testScenarios/fixtures/DeleteFixtures.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testScenarios/fixtures/DeleteFixtures.class" afterDir="false" />
@@ -36,75 +21,59 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FUSProjectUsageTrigger">
     <session id="-615132245">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="class" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="19" />
+          <entry key="md" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="19" />
+          <entry key="Specification" value="1" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="java" value="331" />
+          <entry key="md" value="87" />
+          <entry key="xml" value="259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="331" />
+          <entry key="Specification" value="87" />
+          <entry key="XML" value="259" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/requestHelper/DeleteRequests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/requestHelper/GetRequests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pojos/createFixture/FootballFullState.java">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/requestHelper/PostRequests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -112,17 +81,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="205">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/requestHelper/StoreNewFixtureHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/fixtures/CreateFixtureTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/fixtures/DeleteFixtures.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/fixtures/GetFixtureTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -137,10 +124,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/testScenarios/AllTestsToSplit.java" />
         <option value="$PROJECT_DIR$/src/test/java/requestHelper/PostRequests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenarios/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/requestHelper/DeleteRequests.java" />
         <option value="$PROJECT_DIR$/src/test/java/requestHelper/GetRequests.java" />
         <option value="$PROJECT_DIR$/src/test/java/pojos/createFixture/FootballFullState.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/testScenarios/fixtures/DeleteFixtures.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testScenarios/fixtures/CreateFixtureTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testScenarios/fixtures/GetFixtureTests.java" />
+        <option value="$PROJECT_DIR$/testng2.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testScenarios/BaseTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -151,10 +144,21 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SkyBetTechTest-RestAssured" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="975" />
-    <option name="height" value="1050" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -193,15 +197,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="createFixture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SkyBetTechTest-RestAssured" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SkyBetTechTestRestAssured" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="requestHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="testScenarios" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SkyBetTechTest-RestAssured" type="b2602c69:ProjectViewProjectNode" />
@@ -210,6 +206,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testScenarios" type="462c0819:PsiDirectoryNode" />
+              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,12 +217,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541550557862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541720967900" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SkyBetUnirest" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\Documents\Workspace\SkyBetTechTestRestAssured" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -238,6 +240,38 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml">
+    <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng2.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SkyBetTechTest-RestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SkyBetTechTest-RestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" />
+      <item itemvalue="TestNG.C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng2.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng2.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -252,21 +286,52 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="C__Users_Andrew_Documents_Workspace_SkyBetTechTestRestAssured_testng_xml - 2018.11.08 at 23h 43m 44s.xml">
+      <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Andrew_Documents_Workspace_SkyBetTechTestRestAssured_testng_xml - 2018.11.08 at 23h 44m 22s.xml">
+      <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Andrew_Documents_Workspace_SkyBetTechTestRestAssured_testng_xml - 2018.11.08 at 23h 44m 36s.xml">
+      <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Andrew_Documents_Workspace_SkyBetTechTestRestAssured_testng_xml - 2018.11.08 at 23h 44m 45s.xml">
+      <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Andrew_Documents_Workspace_SkyBetTechTestRestAssured_testng_xml - 2018.11.08 at 23h 45m 42s.xml">
+      <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Andrew_Documents_Workspace_SkyBetTechTestRestAssured_testng_xml - 2018.11.08 at 23h 46m 13s.xml">
+      <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Andrew_Documents_Workspace_SkyBetTechTestRestAssured_testng_xml - 2018.11.08 at 23h 47m 37s.xml">
+      <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Andrew_Documents_Workspace_SkyBetTechTestRestAssured_testng_xml - 2018.11.08 at 23h 48m 32s.xml">
+      <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Andrew_Documents_Workspace_SkyBetTechTestRestAssured_testng_xml - 2018.11.08 at 23h 49m 01s.xml">
+      <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Andrew_Documents_Workspace_SkyBetTechTestRestAssured_testng_xml - 2018.11.08 at 23h 49m 30s.xml">
+      <configuration name="C:/Users/Andrew/Documents/Workspace/SkyBetTechTestRestAssured/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,55 +339,33 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32991204" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3295302" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/AllTestsToSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="63" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/requestHelper/PostRequests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/AllTestsToSplit.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/requestHelper/DeleteRequests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="119">
           <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/requestHelper/StoreNewFixtureHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -335,17 +378,178 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pojos/createFixture/FootballFullState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="357">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/requestHelper/PostRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/requestHelper/StoreNewFixtureHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-815" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkyBetTechTestRestAssured.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="301" selection-start-line="301" selection-end-line="301" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/fixtures/DeleteFixtures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/fixtures/GetFixtureTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/fixtures/CreateFixtureTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testScenarios/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SkyBetTechTest-RestAssured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.27</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

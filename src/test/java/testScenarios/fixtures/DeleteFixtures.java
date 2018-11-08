@@ -7,8 +7,9 @@ import testScenarios.BaseTest;
 import static org.hamcrest.Matchers.*;
 
 public class DeleteFixtures extends BaseTest {
-    @Test
-    public void deleteLastCreatedFixture() {
+
+    @Test(description = "Delete the last created fixture", groups = {"fixtures"})
+    public void deleteLatestFixture() {
         String fixtureId = storeNewFixtureHelper.createFixtureAndReturnFixtureId();
         deleteRequests.deleteFixtureRequest(fixtureId, 200);
         getRequests.getSpecificFixtureIdRequest(fixtureId, 404);

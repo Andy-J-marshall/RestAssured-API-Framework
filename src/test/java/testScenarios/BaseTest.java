@@ -2,6 +2,7 @@ package testScenarios;
 
 import com.google.gson.Gson;
 import io.restassured.response.ValidatableResponse;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import requestHelper.DeleteRequests;
@@ -17,13 +18,13 @@ public class BaseTest {
     protected Gson gson = new Gson();
     protected StoreNewFixtureHelper storeNewFixtureHelper = new StoreNewFixtureHelper();
 
-    @BeforeSuite
+    @BeforeSuite (groups = {"base"})
     public void cleanupFixturesBeforeTestExecution() {
         // This ensures any added fixtures are deleted before we run the tests
         findAndDeleteAllAddedFixtures();
     }
 
-    @AfterSuite
+    @AfterMethod (groups = {"base"})
     public void cleanupFixturesAfterTestExecution() {
         // This ensures any added fixtures are deleted after we run the tests
         findAndDeleteAllAddedFixtures();

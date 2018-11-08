@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.*;
 
 public class GetFixtureTests extends BaseTest {
 
-    @Test
+    @Test(description = "GetFixtures endpoint returns three fixtures and each one has a FixtureId", groups = {"fixtures"})
     public void fixtureIdsAreReturned() {
         ValidatableResponse response = getRequests.getFixturesRequest(200);
         response.and().body("fixtureId.size()", is(equalTo(3)))
